@@ -1,0 +1,165 @@
+/* Write some CSS below */
+
+h1{
+    font-weight:900;
+    font-size: 64px;
+}
+
+a {
+    text-decoration: none;
+    
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+    font-size: 18px;
+}
+
+.banner {
+    background-image: url("images/jordan-pantalon-gris.webp");
+    background-position: center;
+    background-size: cover;
+    color: white;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.6);
+    padding: 100px 0;
+    text-align: center;
+}
+ 
+.container {
+    width: 900px;
+    margin: 20px auto;
+}
+ 
+.btn-black {
+    padding: 15px 25px;
+    margin-top: 15px;
+    border-radius: 5px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    background-color: black;
+    font-weight: bold;
+    color: white;
+}
+
+.btn-blanc {
+    padding: 15px 25px;
+    border-radius: 5px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    font-weight: bold;
+    color: black;
+}
+
+.btn-black:hover {
+    background-color: #D9D3CA;
+    color : black
+}
+
+.btn-blanc:hover{
+    background-color: black;
+    color : white
+}
+
+#introduction {
+    margin-bottom: 40px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 16px;
+}
+
+.card-white {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: 0.5;
+    padding: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.effect {
+    transition: 0.5s;
+}
+
+.effect:hover {
+    transform: scale(1.2);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card-white:hover {
+    transform: translateY(-5px);
+    
+}
+
+.card-white img {
+    max-width: 100%; 
+    height: 250px;
+    object-fit: cover;
+}
+ 
+.card-white button {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.card-newsletter {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    background-color: #c94264;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin:50px;
+    margin-right: 162px;
+    margin-left: 162px;
+    width: 862px; 
+    
+   
+}
+
+
+.card-newsletter img{
+    height: 500px;
+    border-radius: 8px;
+    
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: black;
+    color : white
+}
+
+.footer-left {
+    width: 200px;
+    text-decoration: none;
+    color: white ;
+}
+
+.footer-left a:hover {
+    text-decoration: underline;
+    color : white
+}
+
+.footer-middle {
+    
+}
+
+.footer-block p {
+    margin: 5px 0;
+}
+
+
+
